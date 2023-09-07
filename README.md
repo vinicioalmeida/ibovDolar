@@ -1,0 +1,2 @@
+# ibovDolar
+Ibov dolarizado
