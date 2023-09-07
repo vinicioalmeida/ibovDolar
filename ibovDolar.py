@@ -29,8 +29,8 @@ ibovusd = pd.merge(ibovdf, usdbrldf,
 ibovusd['IBOVUSD'] = ibovusd['IBOV'] / ibovusd['USDBRL']
 
 # plot
-plt.figure(figsize = (10, 6), dpi = 150)
-plt.plot(ibovusd.index, ibovusd['IBOVUSD'], label = 'Ibov dolarizado')
+plt.figure(figsize = (10, 6), dpi = 120)
+plt.plot(ibovusd.index, ibovusd['IBOVUSD'], label = 'Ibovespa dolarizado', color = 'green')
 plt.xlabel('Data')
 plt.ylabel('Ibovespa em Dólar')
 plt.title('Ibovespa em Dólar desde ' + start[:4])
