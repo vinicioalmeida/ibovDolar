@@ -6,7 +6,7 @@ import yfinance as yf
 
 # dates
 start = "2007-01-01"
-end = "2023-09-06"
+end = "2024-01-05"
 
 # data
 ibov = yf.download('^BVSP', start = start, end = end
